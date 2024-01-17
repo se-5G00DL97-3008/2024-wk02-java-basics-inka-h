@@ -6,7 +6,7 @@ class E08 {
 
         int userNumber = -5;
         while (userNumber != 0) {
-            userNumber = askNumber(scanner, "Give a number (0 to quit): ");
+            userNumber = askNumber(scanner, "Give a number (0 to quit):");
 
             if (userNumber == 0) {
                 break;
