@@ -5,14 +5,14 @@ class E02 {
         Scanner scanner = new Scanner(System.in);
 
         double a = askNumber(scanner, "Give a number: ");
-        double b = askNumber(scanner, "Give another number: ");
+        double b = askNumber(scanner, "Give a number: ");
 
         scanner.close();
 
         System.out.println();
         printResult(a, b, " + ", a + b);
-        printResult(a, b, " * ", a * b);
         printResult(a, b, " - ", a - b);
+        printResult(a, b, " * ", a * b);
         if (!isZero(b)) {
             printResult(a, b, " / ", a / b);
         } else {

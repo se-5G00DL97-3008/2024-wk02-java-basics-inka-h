@@ -6,16 +6,16 @@ class E08 {
 
         int userNumber = -5;
         while (userNumber != 0) {
-            userNumber = askNumber(scanner, "Enter a number (0 to quit): ");
+            userNumber = askNumber(scanner, "Give a number (0 to quit): ");
 
             if (userNumber == 0) {
                 break;
             }
 
             if (userNumber % 2 == 0) {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             } else {
-                System.out.println("Odd number");
+                System.out.println("Number is odd");
             }
             System.out.println();
             }

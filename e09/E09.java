@@ -9,7 +9,7 @@ class E09 {
         int count = 1;
 
         while (userNumber != -1) {
-            userNumber = askNumber(scanner, "Give a test score (-1 to quit): ");
+            userNumber = askNumber(scanner, "Give a test score (-1 to quit):");
 
             if (userNumber == -1) {
                 break;
