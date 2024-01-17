@@ -9,10 +9,9 @@ class E02 {
 
         scanner.close();
 
-        System.out.println();
         printResult(a, b, " + ", a + b);
         printResult(a, b, " - ", a - b);
-        printResult(a, b, " * ", a * b);
+        printResult(a, b, " x ", a * b);
         if (!isZero(b)) {
             printResult(a, b, " / ", a / b);
         } else {

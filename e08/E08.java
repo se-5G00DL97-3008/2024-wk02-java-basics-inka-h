@@ -17,7 +17,7 @@ class E08 {
             } else {
                 System.out.println("Number is odd");
             }
-            System.out.println();
+
             }
             scanner.close();
         }

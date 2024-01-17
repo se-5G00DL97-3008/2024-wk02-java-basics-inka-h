@@ -4,34 +4,36 @@ class E05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int number = askNumber(scanner, "Enter a number: ");
+        int number = askNumber(scanner, "Enter a number:");
+        String day = "weekday";
 
         switch (number) {
             case 1:
-                System.out.println("Mon");
+                day = "Mon";
                 break;
             case 2:
-                System.out.println("Tue");
+            day = "Tue";
                 break;
             case 3:
-                System.out.println("Wed");
+            day = "Wed";
                 break;
             case 4:
-                System.out.println("Thu");
+            day = "Thu";
                 break;
             case 5:
-                System.out.println("Fri");
+            day = "Fri";
                 break;
             case 6:
-                System.out.println("Sat");
+            day = "Sat";
                 break;
             case 7:
-                System.out.println("Sun");
+            day = "Sun";
                 break;
             default:
-                System.out.println("Only 7 days in a week");
+                day = "Only 7 days in a week";
                 break;
         }
+        System.out.println(day);
     }
 
     private static int askNumber(Scanner scanner, String prompt) {
